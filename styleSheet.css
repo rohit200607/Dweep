@@ -1,0 +1,43 @@
+body{
+    /* margin-top: 0; */
+    margin: 0;
+}
+
+
+.header{
+    background-color: #FFCD9E;
+    padding: 100px;
+    display: flex;
+}
+.header-right{
+    flex-wrap: wrap;
+flex-direction: column;
+padding-left: 300px;
+
+
+}
+
+.footer{
+    background-color: #282828;
+    color: white;
+    padding: 100px;
+    display: flex;
+}
+.footer-right{
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 750px;
+    align-content: end;
+}
+span{
+    padding-left: 20px;
+ color: white;
+}
+button{
+    background-color: black;
+    color: white;
+    
+    padding: 5px;
+     border-radius: 5px;
+     
+}
